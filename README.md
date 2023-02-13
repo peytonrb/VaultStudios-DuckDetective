@@ -1,4 +1,4 @@
-# Vault Studios: Titled Goose Game
+# Vault Studios: Duck Detective
 3D Unity game using modular design and NavMesh. Includes C# scripts, custom audio and graphics for cohesive game experience.
 
 To access the Unity C# scripts, go into Assets -> Scripts to see each asset controller. The original 3D models are in Assets -> Models along with our original background theme and menu.
