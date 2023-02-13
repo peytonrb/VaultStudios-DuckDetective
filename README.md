@@ -1,2 +1,2 @@
-# Vault Studios: Hallway with Guard (name pending)
+# Vault Studios: Titled Goose Game
 3D Unity game using modular design and NavMesh. Includes C# scripts, custom audio and graphics for cohesive game experience.
