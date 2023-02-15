@@ -6,4 +6,4 @@ To access the Unity C# scripts, go into Assets -> Scripts to see each asset cont
 Click here to play our build!
 
 # Controls
-Use WASD (or YBAX for Xbox Controller) to navigate through the game. Use the mouse or joystick to look around, and use Space to jump. 
+Use WASD (or left joystick for Xbox Controller) to navigate through the game. Use the mouse or joystick to look around, and use Space to jump. 
