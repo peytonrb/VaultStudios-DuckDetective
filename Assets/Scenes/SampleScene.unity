@@ -753,9 +753,9 @@ GameObject:
   - component: {fileID: 950038565}
   - component: {fileID: 950038564}
   - component: {fileID: 950038568}
-  m_Layer: 0
-  m_Name: FoxTemp
-  m_TagString: Untagged
+  m_Layer: 8
+  m_Name: Fox
+  m_TagString: Fox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
