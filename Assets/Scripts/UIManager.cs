@@ -6,11 +6,13 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     public GameObject fKey;
+    public GameObject textBG;
     public TMP_Text frogChat;
 
     private void Awake()
     {
         fKey.SetActive(false);
+        textBG.SetActive(false);
         frogChat.gameObject.SetActive(false);
     }
 
@@ -29,6 +31,7 @@ public class UIManager : MonoBehaviour
 
             if (GameManager.Instance.fDown)
             {
+                textBG.SetActive(true);
                 frogChat.gameObject.SetActive(true);
                 fKey.SetActive(false);
             }

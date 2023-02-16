@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
 
     public bool fDown; // Bool Checking if F key is down
     public bool npcInRange; // Bool Checking if an NPC is in Range
-    public Transform frog; // Frog's transform so that player looks at them when interacting
 
     public void Awake()
     {

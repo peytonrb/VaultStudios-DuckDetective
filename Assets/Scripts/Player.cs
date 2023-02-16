@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public LayerMask npc;
+    private Transform npc;
     public GameObject camPov;
     private bool inRange;
     private Coroutine LookCoroutine;
@@ -12,9 +12,6 @@ public class Player : MonoBehaviour
     
     private void Update()
     {
-        // checks if NPC is in range
-        inRange = Physics.CheckSphere(this.transform.position, 2f, npc);
-
         if (inRange)
         {
             GameManager.Instance.NPCInRange();
@@ -24,28 +21,44 @@ public class Player : MonoBehaviour
             GameManager.Instance.npcInRange = false;
         }
 
-        if ( GameManager.Instance.fDown)
+        if (GameManager.Instance.fDown)
         {
-            StartRotating();
+            StartRotating(npc);
         }
     }
 
-    public void StartRotating()
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == 7) //checks if the collided object is on layer 7 or NPC
+        {
+            inRange = true;
+        }
+        npc = other.gameObject.transform;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.layer == 7) //checks if the collided object is on layer 7 or NPC
+        {
+            inRange = false;
+        }
+    }
+
+    public void StartRotating(Transform npc)
     {
         if (LookCoroutine != null)
         {
             StopCoroutine(LookCoroutine);
         }
 
-        LookCoroutine = StartCoroutine(LookAt());
+        LookCoroutine = StartCoroutine(LookAt(npc));
     }
 
-    private IEnumerator LookAt()
+    private IEnumerator LookAt(Transform target)
     {
         camPov.GetComponent<PlayerLook>().enabled = false;
-        Transform Target = GameManager.Instance.frog;
-        Quaternion lookRotation = Quaternion.LookRotation(Target.position - transform.position);
-        Quaternion camLookRotation = Quaternion.LookRotation(Target.position - camPov.transform.position);
+        Quaternion lookRotation = Quaternion.LookRotation(target.position - transform.position);
+        Quaternion camLookRotation = Quaternion.LookRotation(target.position - camPov.transform.position);
 
         float time = 0;
         while (time < 1)
@@ -54,11 +67,9 @@ public class Player : MonoBehaviour
             transform.eulerAngles = new Vector3(0f, transform.eulerAngles.y, 0f);
 
             camPov.transform.rotation = Quaternion.Slerp(camPov.transform.rotation, camLookRotation, time);
-            //camPov.transform.eulerAngles = new Vector3(camPov.transform.eulerAngles.x, 0f, 0f);
             
             time += Time.deltaTime * rotationSpeed;
             yield return null;
         }
-        //camPov.GetComponent<PlayerLook>().enabled = true;
     }
 }
