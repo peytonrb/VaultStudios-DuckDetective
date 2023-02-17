@@ -37,6 +37,8 @@ public class TextEffect : MonoBehaviour
 		}
 	}
 
+	
+
 	IEnumerator TypeWriterText()
 	{
 		_text.text = leadingCharBeforeDelay ? leadingChar : "";

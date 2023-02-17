@@ -29,6 +29,6 @@ public class PlayerLook : MonoBehaviour
 
     private void OnEnable()
     {
-        
+        xRotation = transform.eulerAngles.x;
     }
 }

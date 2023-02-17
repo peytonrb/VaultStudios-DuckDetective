@@ -29,11 +29,16 @@ public class UIManager : MonoBehaviour
                 fKey.SetActive(true);
             }
 
-            if (GameManager.Instance.fDown)
+            if (GameManager.Instance.moveOff)
             {
                 textBG.SetActive(true);
                 frogChat.gameObject.SetActive(true);
                 fKey.SetActive(false);
+            }
+            else
+            {
+                textBG.SetActive(false);
+                frogChat.gameObject.SetActive(false);
             }
         }
 

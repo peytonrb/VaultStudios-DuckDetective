@@ -9,8 +9,10 @@ public class GameManager : MonoBehaviour
 
     public bool fDown; // Bool Checking if F key is down
     public bool npcInRange; // Bool Checking if an NPC is in Range
+    public bool moveOff;
+    public float tempPlayerLookX;
 
-    public void Awake()
+    private void Awake()
     {
         // This moves the current GameManager to DontDestroyOnLoad and deletes any other GameManagers
         if (Instance != null) 
@@ -24,12 +26,19 @@ public class GameManager : MonoBehaviour
         }
 
         fDown = false;
+        npcInRange = false;
+        moveOff = false;
+    }
+
+    public void MoveOff()
+    {
+        moveOff = true;
     }
 
     public void NPCInRange()
     {
         npcInRange = true;
-        if(Input.GetKey(KeyCode.F))
+        if(Input.GetKeyDown(KeyCode.F))
         {
             fDown = true;
         }

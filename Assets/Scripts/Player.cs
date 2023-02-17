@@ -25,6 +25,14 @@ public class Player : MonoBehaviour
         {
             StartRotating(npc);
         }
+
+        if (GameManager.Instance.moveOff)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                MoveOn();
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -57,12 +65,18 @@ public class Player : MonoBehaviour
     private IEnumerator LookAt(Transform target)
     {
         camPov.GetComponent<PlayerLook>().enabled = false;
+        GetComponent<PlayerMovement>().enabled = false;
+        GameManager.Instance.MoveOff();
         Quaternion lookRotation = Quaternion.LookRotation(target.position - transform.position);
         Quaternion camLookRotation = Quaternion.LookRotation(target.position - camPov.transform.position);
 
         float time = 0;
         while (time < 1)
         {
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                time = 1;
+            }
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, time);
             transform.eulerAngles = new Vector3(0f, transform.eulerAngles.y, 0f);
 
@@ -71,5 +85,13 @@ public class Player : MonoBehaviour
             time += Time.deltaTime * rotationSpeed;
             yield return null;
         }
+    }
+
+    public void MoveOn()
+    {
+        GameManager.Instance.tempPlayerLookX = camPov.transform.eulerAngles.x;
+        GameManager.Instance.moveOff = false;
+        camPov.GetComponent<PlayerLook>().enabled = true;
+        GetComponent<PlayerMovement>().enabled = true;
     }
 }
