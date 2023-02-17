@@ -6,10 +6,16 @@ public class Player : MonoBehaviour
 {
     private GameObject npc;
     public GameObject camPov;
+    public GameObject froggo;
     private bool inRange;
     private Coroutine LookCoroutine;
     public float rotationSpeed = 1f;
     
+    private void Awake()
+    {
+        froggo.SetActive(false);
+    }
+
     private void Update()
     {
         if (inRange)
@@ -21,7 +27,7 @@ public class Player : MonoBehaviour
             GameManager.Instance.npcInRange = false;
         }
 
-        if (GameManager.Instance.fDown)
+        if (GameManager.Instance.fDown && npc != null)
         {
             StartRotating(npc);
         }
@@ -32,6 +38,11 @@ public class Player : MonoBehaviour
             {
                 MoveOn();
             }
+        }
+
+        if (GameManager.Instance.hasMacguffin)
+        {
+            froggo.SetActive(true);
         }
     }
 
@@ -51,7 +62,9 @@ public class Player : MonoBehaviour
         {
             inRange = false;
             npc.GetComponent<npcChat>().enabled = false;
+            npc = null;
         }
+
     }
 
     public void StartRotating(GameObject npc)

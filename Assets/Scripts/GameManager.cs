@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public float tempPlayerLookX;
     public bool activeChat;
     public bool typing;
+    public bool hasMacguffin;
 
     private void Awake()
     {

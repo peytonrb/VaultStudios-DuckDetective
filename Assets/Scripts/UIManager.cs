@@ -52,5 +52,10 @@ public class UIManager : MonoBehaviour
         {
             spaceText.SetActive(false);
         }
+
+        if (GameManager.Instance.hasMacguffin && !GameManager.Instance.npcInRange)
+        {
+            fKey.SetActive(false);
+        }
     }
 }
