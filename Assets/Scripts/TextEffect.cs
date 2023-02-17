@@ -10,7 +10,7 @@ public class TextEffect : MonoBehaviour
 	string writer;
 
 	[SerializeField] float delayBeforeStart = 0f;
-	[SerializeField] float timeBtwChars = 0.1f;
+	[SerializeField] float timeBtwChars = 0.05f;
 	[SerializeField] string leadingChar = "";
 	[SerializeField] bool leadingCharBeforeDelay = false;
 
@@ -19,6 +19,8 @@ public class TextEffect : MonoBehaviour
 	{
 		_text = GetComponent<Text>()!;
 		_tmpProText = GetComponent<TMP_Text>()!;
+
+		GameManager.Instance.typing = true;
 
 		if(_text != null)
         {
@@ -83,5 +85,7 @@ public class TextEffect : MonoBehaviour
 		{
 			_tmpProText.text = _tmpProText.text.Substring(0, _tmpProText.text.Length - leadingChar.Length);
 		}
+
+		GameManager.Instance.typing = false;
 	}
 }

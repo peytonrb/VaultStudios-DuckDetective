@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Transform npc;
+    private GameObject npc;
     public GameObject camPov;
     private bool inRange;
     private Coroutine LookCoroutine;
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
 
         if (GameManager.Instance.moveOff)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && !GameManager.Instance.typing)
             {
                 MoveOn();
             }
@@ -40,8 +40,9 @@ public class Player : MonoBehaviour
         if (other.gameObject.layer == 7) //checks if the collided object is on layer 7 or NPC
         {
             inRange = true;
+            npc = other.gameObject;
+            npc.GetComponent<npcChat>().enabled = true;
         }
-        npc = other.gameObject.transform;
     }
 
     private void OnTriggerExit(Collider other)
@@ -49,10 +50,11 @@ public class Player : MonoBehaviour
         if (other.gameObject.layer == 7) //checks if the collided object is on layer 7 or NPC
         {
             inRange = false;
+            npc.GetComponent<npcChat>().enabled = false;
         }
     }
 
-    public void StartRotating(Transform npc)
+    public void StartRotating(GameObject npc)
     {
         if (LookCoroutine != null)
         {
@@ -62,18 +64,18 @@ public class Player : MonoBehaviour
         LookCoroutine = StartCoroutine(LookAt(npc));
     }
 
-    private IEnumerator LookAt(Transform target)
+    private IEnumerator LookAt(GameObject target)
     {
         camPov.GetComponent<PlayerLook>().enabled = false;
         GetComponent<PlayerMovement>().enabled = false;
         GameManager.Instance.MoveOff();
-        Quaternion lookRotation = Quaternion.LookRotation(target.position - transform.position);
-        Quaternion camLookRotation = Quaternion.LookRotation(target.position - camPov.transform.position);
+        Quaternion lookRotation = Quaternion.LookRotation(target.transform.position - transform.position);
+        Quaternion camLookRotation = Quaternion.LookRotation(target.transform.position - camPov.transform.position);
 
         float time = 0;
         while (time < 1)
         {
-            if(Input.GetKeyDown(KeyCode.Space))
+            if(Input.GetKeyDown(KeyCode.Space) && !GameManager.Instance.typing)
             {
                 time = 1;
             }
@@ -90,6 +92,7 @@ public class Player : MonoBehaviour
     public void MoveOn()
     {
         GameManager.Instance.tempPlayerLookX = camPov.transform.eulerAngles.x;
+        GameManager.Instance.activeChat = false;
         GameManager.Instance.moveOff = false;
         camPov.GetComponent<PlayerLook>().enabled = true;
         GetComponent<PlayerMovement>().enabled = true;

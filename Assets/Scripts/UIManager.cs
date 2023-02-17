@@ -7,20 +7,19 @@ public class UIManager : MonoBehaviour
 {
     public GameObject fKey;
     public GameObject textBG;
-    public TMP_Text frogChat;
+    public GameObject spaceText;
 
     private void Awake()
     {
         fKey.SetActive(false);
         textBG.SetActive(false);
-        frogChat.gameObject.SetActive(false);
     }
 
     void Update()
     {
         if (GameManager.Instance.npcInRange == true)
         {
-            if (frogChat.gameObject.activeInHierarchy == true)
+            if (textBG.gameObject.activeInHierarchy == true)
             {
                 fKey.SetActive(false);
             }
@@ -32,13 +31,11 @@ public class UIManager : MonoBehaviour
             if (GameManager.Instance.moveOff)
             {
                 textBG.SetActive(true);
-                frogChat.gameObject.SetActive(true);
                 fKey.SetActive(false);
             }
             else
             {
                 textBG.SetActive(false);
-                frogChat.gameObject.SetActive(false);
             }
         }
 
@@ -47,5 +44,13 @@ public class UIManager : MonoBehaviour
             fKey.SetActive(false);
         }
         
+        if (!GameManager.Instance.typing)
+        {
+            spaceText.SetActive(true);
+        }
+        else
+        {
+            spaceText.SetActive(false);
+        }
     }
 }

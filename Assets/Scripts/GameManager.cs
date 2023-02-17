@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public bool npcInRange; // Bool Checking if an NPC is in Range
     public bool moveOff;
     public float tempPlayerLookX;
+    public bool activeChat;
+    public bool typing;
 
     private void Awake()
     {
@@ -28,6 +30,7 @@ public class GameManager : MonoBehaviour
         fDown = false;
         npcInRange = false;
         moveOff = false;
+        typing = false;
     }
 
     public void MoveOff()
