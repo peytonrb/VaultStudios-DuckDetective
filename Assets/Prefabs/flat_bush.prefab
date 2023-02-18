@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5623039128590024811}
   - component: {fileID: 8765931076959080398}
   - component: {fileID: 6792027021840284420}
+  - component: {fileID: -4345980082861382134}
   m_Layer: 0
   m_Name: flat_bush
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-4345980082861382134
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4990794221826562769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 398.98694, y: 293.6126, z: 151.31035}
+  m_Center: {x: 0.0000076293936, y: 0, z: 0}
