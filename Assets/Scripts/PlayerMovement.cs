@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
     void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.tag == "Fox") {
             // trigger lose screen
+            Application.Quit();
         }
     }
 }
