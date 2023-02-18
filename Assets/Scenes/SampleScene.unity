@@ -7482,7 +7482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d801b65ce6c8425448d54026154e726c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dangerRadius: 1
+  dangerRadius: 3
   player: {fileID: 1138668559}
   patrolPoints:
   - {fileID: 1238611709}
@@ -9308,7 +9308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156282483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.2, y: 0, z: -6.6}
+  m_LocalPosition: {x: -0.3, y: 0, z: -5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
