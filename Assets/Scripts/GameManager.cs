@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
         npcInRange = false;
         moveOff = false;
         typing = false;
+        hasMacguffin = false;
     }
 
     public void MoveOff()

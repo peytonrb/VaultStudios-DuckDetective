@@ -56,13 +56,17 @@ public class npcChat : MonoBehaviour
 
         if (!GameManager.Instance.typing && pickup && Input.GetKeyDown(KeyCode.Space))
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
-        GameManager.Instance.hasMacguffin = true;
+        if (!gameObject.activeInHierarchy)
+        {
+            GameManager.Instance.hasMacguffin = true;
+            GameManager.Instance.npcInRange = false;
+        }
         foreach (TMP_Text text in chats)
         {
             if (text.gameObject.activeInHierarchy)

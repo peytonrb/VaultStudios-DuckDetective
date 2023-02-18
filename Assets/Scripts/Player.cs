@@ -7,13 +7,15 @@ public class Player : MonoBehaviour
     private GameObject npc;
     public GameObject camPov;
     public GameObject froggo;
-    private bool inRange;
+    public bool inRange;
     private Coroutine LookCoroutine;
     public float rotationSpeed = 1f;
+    private int macCount;
     
     private void Awake()
     {
         froggo.SetActive(false);
+        macCount = 0;
     }
 
     private void Update()
@@ -42,7 +44,12 @@ public class Player : MonoBehaviour
 
         if (GameManager.Instance.hasMacguffin)
         {
-            froggo.SetActive(true);
+            if (macCount < 1)
+            {
+                macCount ++;
+                froggo.SetActive(true);
+                inRange = false;
+            }
         }
     }
 
@@ -61,10 +68,12 @@ public class Player : MonoBehaviour
         if (other.gameObject.layer == 7) //checks if the collided object is on layer 7 or NPC
         {
             inRange = false;
-            npc.GetComponent<npcChat>().enabled = false;
-            npc = null;
+            if (npc != null)
+            {
+                npc.GetComponent<npcChat>().enabled = false;
+                npc = null;
+            }
         }
-
     }
 
     public void StartRotating(GameObject npc)
