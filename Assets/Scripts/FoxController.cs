@@ -10,6 +10,11 @@ public class FoxController : MonoBehaviour
     public LayerMask isPlayer;
     public float speed;
     private bool withinRadius;
+    private NavMeshAgent agent;
+
+    void Start() {
+        agent = GetComponent<NavMeshAgent>();
+    }
     void Update()
     {
         withinRadius = Physics.CheckSphere(transform.position, dangerRadius, isPlayer);

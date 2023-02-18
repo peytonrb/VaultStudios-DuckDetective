@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 1042c2a5a4c10a144956eb98c993e0de, type: 2}
 --- !u!4 &1751571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
@@ -138,6 +138,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -218,6 +226,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -287,6 +303,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -355,6 +379,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -429,6 +461,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -509,6 +549,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 127
@@ -574,6 +622,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -786,6 +842,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 119
@@ -851,6 +915,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -922,6 +994,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 136
@@ -988,6 +1068,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 116
@@ -1053,6 +1141,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -1122,6 +1218,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -1484,6 +1588,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 85
@@ -1557,6 +1669,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -1661,6 +1781,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -1787,6 +1915,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -1861,6 +1997,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 113
@@ -1934,6 +2078,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -2106,6 +2258,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -2174,6 +2334,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -2244,6 +2412,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -2345,6 +2521,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -2424,6 +2608,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -2498,6 +2690,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -2571,6 +2771,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -2652,7 +2860,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &308381587
 MeshCollider:
@@ -2744,6 +2952,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -2817,6 +3033,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -2981,6 +3205,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -3055,6 +3287,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 166
@@ -3125,6 +3365,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -3185,6 +3433,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -3260,6 +3516,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -3333,6 +3597,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -3413,6 +3685,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -3481,6 +3761,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -3555,6 +3843,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -3634,6 +3930,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -3811,6 +4115,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 159
@@ -3889,6 +4201,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -3969,6 +4289,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 102
@@ -4043,6 +4371,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 125
@@ -4108,6 +4444,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -4335,6 +4679,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 105
@@ -4408,6 +4760,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -4483,6 +4843,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -4556,6 +4924,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -4631,6 +5007,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (02)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -4704,6 +5088,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -4875,6 +5267,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -5017,6 +5417,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 160
@@ -5096,6 +5504,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -5169,6 +5585,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -5248,6 +5672,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -5442,6 +5874,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -5510,6 +5950,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -5585,6 +6033,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -5658,6 +6114,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -5822,6 +6286,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 158
@@ -5895,6 +6367,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -5970,6 +6450,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 149
@@ -6043,6 +6531,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -6118,6 +6614,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -6178,6 +6682,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -6253,6 +6765,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -6327,6 +6847,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 154
@@ -6396,6 +6924,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -6471,6 +7007,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -6539,6 +7083,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -6690,6 +7242,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -6762,6 +7322,7 @@ GameObject:
   - component: {fileID: 950038564}
   - component: {fileID: 950038568}
   - component: {fileID: 950038569}
+  - component: {fileID: 950038570}
   m_Layer: 8
   m_Name: Fox
   m_TagString: Fox
@@ -6840,7 +7401,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950038563}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8, y: 0.25, z: -25.8}
+  m_LocalPosition: {x: -14.67, y: 0.25, z: -19.96}
   m_LocalScale: {x: 0.43432, y: 0.43432, z: 0.43432}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6864,7 +7425,7 @@ MonoBehaviour:
   isPlayer:
     serializedVersion: 2
     m_Bits: 8
-  speed: 10
+  speed: 8
 --- !u!195 &950038569
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6887,6 +7448,22 @@ NavMeshAgent:
   m_BaseOffset: 0.49999997
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!54 &950038570
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950038563}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -6998,6 +7575,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -7072,6 +7657,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -7137,6 +7730,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -7211,6 +7812,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (01)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -7409,6 +8018,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -7469,6 +8086,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -7543,6 +8168,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -7623,6 +8256,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -7697,6 +8338,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -7770,6 +8419,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -8043,6 +8700,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 87
@@ -8241,6 +8906,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (03)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 99
@@ -8314,6 +8987,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -8389,6 +9070,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -8463,6 +9152,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 123
@@ -8528,6 +9225,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -8663,6 +9368,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -8723,6 +9436,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -8797,6 +9518,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -9030,6 +9759,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 114
@@ -9104,6 +9841,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -9169,6 +9914,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -9244,6 +9997,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 138
@@ -9309,6 +10070,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -9376,6 +10145,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 153
@@ -9442,6 +10219,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -9502,6 +10287,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -9578,6 +10371,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -9755,6 +10556,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -9824,6 +10633,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 118
@@ -9885,6 +10702,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -9960,6 +10785,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -10029,6 +10862,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -10097,6 +10938,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -10172,6 +11021,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 128
@@ -10242,6 +11099,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -10316,6 +11181,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -10544,6 +11417,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -10617,6 +11498,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -10692,6 +11581,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -10760,6 +11657,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -10830,6 +11735,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 110
@@ -10896,6 +11809,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -10961,6 +11882,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -11035,6 +11964,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -11115,6 +12052,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (03)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 96
@@ -11189,6 +12134,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -11255,6 +12208,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -11315,6 +12276,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -11384,6 +12353,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -11459,6 +12436,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -11532,6 +12517,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -11686,6 +12679,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 139
@@ -11751,6 +12752,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -11825,6 +12834,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -11905,6 +12922,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -11970,6 +12995,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -12042,6 +13075,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -12102,6 +13143,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -12177,6 +13226,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -12247,6 +13304,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -12322,6 +13387,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -12390,6 +13463,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -12465,6 +13546,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 122
@@ -12538,6 +13627,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -12613,6 +13710,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 162
@@ -12687,6 +13792,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -12756,6 +13869,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -12824,6 +13945,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -12909,6 +14038,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -12979,6 +14116,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -13054,6 +14199,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -13122,6 +14275,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (02)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -13299,6 +14460,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 115
@@ -13373,6 +14542,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -13441,6 +14618,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -13515,6 +14700,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -13593,6 +14786,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -13821,6 +15022,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -13890,6 +15099,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -13958,6 +15175,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -14032,6 +15257,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -14116,6 +15349,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -14184,6 +15425,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (04)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -14259,6 +15508,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -14324,6 +15581,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -14394,6 +15659,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -14473,6 +15746,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 163
@@ -14543,6 +15824,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -14603,6 +15892,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -14683,6 +15980,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 117
@@ -14753,6 +16058,14 @@ PrefabInstance:
     - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_Name
       value: flat_bush (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
@@ -14825,6 +16138,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -14895,6 +16216,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
@@ -15072,6 +16401,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -15146,6 +16483,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flat_bush
       objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4990794221826562769, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5623039128590024811, guid: 4d7d1ca41efc21f40989b260661f6451, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -15206,6 +16551,14 @@ PrefabInstance:
     - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Name
       value: lumpy_bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246052352632534494, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_RootOrder
