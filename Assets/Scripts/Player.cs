@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
     private Coroutine LookCoroutine;
     public float rotationSpeed = 1f;
     private int macCount;
+    public LayerMask fox;
+    public bool foxInRange;
     
     private void Awake()
     {
@@ -20,6 +22,9 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        //GameManager.Instance.loseCon = Physics.CheckSphere(this.transform.position, 1f, fox);
+        //foxInRange = Physics.CheckSphere(this.transform.position, 1f, fox);
+
         if (inRange)
         {
             GameManager.Instance.NPCInRange();
@@ -51,6 +56,7 @@ public class Player : MonoBehaviour
                 inRange = false;
             }
         }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -60,6 +66,11 @@ public class Player : MonoBehaviour
             inRange = true;
             npc = other.gameObject;
             npc.GetComponent<npcChat>().enabled = true;
+        }
+
+        if (other.gameObject.tag == "Fox")
+        {
+            //GameManager.Instance.loseCon = true;
         }
     }
 

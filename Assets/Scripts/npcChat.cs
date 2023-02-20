@@ -28,6 +28,7 @@ public class npcChat : MonoBehaviour
                 if (GameManager.Instance.hasMacguffin && tag != "Macguffin")
                 {
                     winChat.gameObject.SetActive(true);
+                    GameManager.Instance.winCon = true;
                 }
                 else
                 {

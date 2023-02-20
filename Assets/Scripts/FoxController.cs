@@ -40,4 +40,12 @@ public class FoxController : MonoBehaviour
         agent.destination = patrolPoints[destinationPoint].position;
         destinationPoint = (destinationPoint + 1) % patrolPoints.Length;
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "PlayerHitBox")
+        {
+            GameManager.Instance.loseCon = true;
+        }
+    }
 }

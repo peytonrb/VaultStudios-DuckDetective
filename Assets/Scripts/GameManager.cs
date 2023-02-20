@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     public bool activeChat;
     public bool typing;
     public bool hasMacguffin;
+    public bool winCon;
+    public bool loseCon;
 
     private void Awake()
     {
@@ -34,6 +36,24 @@ public class GameManager : MonoBehaviour
         moveOff = false;
         typing = false;
         hasMacguffin = false;
+        winCon = false;
+    }
+
+    private void Update()
+    {
+        if (winCon && !typing && SceneManager.GetActiveScene().name != "WinScreen" && Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene("WinScreen");
+        }
+        else if (loseCon && SceneManager.GetActiveScene().name != "LoseScreen")
+        {
+            SceneManager.LoadScene("LoseScreen");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     public void MoveOff()
