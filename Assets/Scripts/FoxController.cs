@@ -28,6 +28,7 @@ public class FoxController : MonoBehaviour
         }
 
         if (withinRadius) {
+            transform.LookAt(player);
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         }
     }
