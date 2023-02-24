@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 1042c2a5a4c10a144956eb98c993e0de, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: e9ec1ecda52d25d439a2f0737ec0a63f, type: 2}
 --- !u!4 &1751571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
@@ -361,6 +361,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -688,7 +696,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82315662}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f446f54b5a9f05348908128a3de3f650, type: 3}
   m_Name: 
@@ -842,6 +850,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -1685,6 +1701,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
 --- !u!4 &179343614 stripped
@@ -1828,6 +1852,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -3321,6 +3353,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
 --- !u!4 &398924176 stripped
@@ -4361,6 +4401,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &541835633 stripped
@@ -4471,6 +4519,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -4713,6 +4769,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &573881403 stripped
@@ -4874,6 +4938,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -5429,6 +5501,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &683977337 stripped
@@ -5488,6 +5568,7 @@ Transform:
   - {fileID: 803010462}
   - {fileID: 308381590}
   - {fileID: 82315663}
+  - {fileID: 1503661749}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6035,6 +6116,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -7081,6 +7170,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &875929259 stripped
@@ -8104,6 +8201,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
@@ -9302,6 +9407,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1138492715 stripped
@@ -9381,6 +9494,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -9948,6 +10069,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -10665,6 +10794,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -11420,6 +11557,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1303371300 stripped
@@ -11568,6 +11713,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -11727,6 +11880,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -12556,6 +12717,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1426559735 stripped
@@ -12984,6 +13153,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1458732744 stripped
@@ -13305,6 +13482,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1493417085 stripped
@@ -13330,6 +13515,104 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0719833, y: 3.128961, z: 1.4211893}
   m_Center: {x: 0.07392025, y: -0.08137846, z: -0.04530486}
+--- !u!1 &1503661748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1503661749}
+  - component: {fileID: 1503661752}
+  - component: {fileID: 1503661751}
+  - component: {fileID: 1503661750}
+  m_Layer: 6
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1503661749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503661748}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: -35.29}
+  m_LocalScale: {x: 7.441316, y: 7.441316, z: 1.8780395}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 699084409}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1503661750
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503661748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1503661751
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503661748}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9a367bddaeb46934c8a459303a54165d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1503661752
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503661748}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1505801726 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2064199490712496623, guid: e41bef2bb3d280e4ba1e22f0eeae879e, type: 3}
@@ -13646,6 +13929,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
 --- !u!4 &1551980245 stripped
@@ -13886,6 +14177,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -14432,6 +14731,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1661933586 stripped
@@ -14900,6 +15207,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -15978,6 +16293,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1825798183 stripped
@@ -16131,6 +16454,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1831836010 stripped
@@ -16214,6 +16545,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
       propertyPath: m_Name
       value: lumpy_bush (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
@@ -16440,6 +16779,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -16759,6 +17106,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1920611303 stripped
@@ -17003,6 +17358,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &1961652140 stripped
@@ -17082,6 +17445,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6377131753538ea438d532d26063c806, type: 3}
       propertyPath: m_Name
       value: flower_bush_textured_2 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
@@ -17485,6 +17856,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower_bush_textured_2 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 6377131753538ea438d532d26063c806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377131753538ea438d532d26063c806, type: 3}
 --- !u!4 &2020774500 stripped
@@ -17573,6 +17952,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lumpy_bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2624cb078a7344b97935d960823a3e, type: 3}
 --- !u!4 &2026383983 stripped
@@ -17650,6 +18037,10 @@ PrefabInstance:
     - target: {fileID: 586021981812420452, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759459670560347147, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1759459670560347147, guid: 24bef5d75ad211847896d0e55d2f99eb, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -18992,6 +19383,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 699084409}
     m_Modifications:
+    - target: {fileID: 301547659507175688, guid: e41bef2bb3d280e4ba1e22f0eeae879e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 301547659507175688, guid: e41bef2bb3d280e4ba1e22f0eeae879e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1724406058807833429, guid: e41bef2bb3d280e4ba1e22f0eeae879e, type: 3}
       propertyPath: m_Name
       value: tree_textured
