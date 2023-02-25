@@ -21,6 +21,10 @@ public class FoxController : MonoBehaviour
     }
     void Update()
     {
+        if (!agent.isOnNavMesh) {
+            Debug.Log("not on mesh");
+        }
+
         withinRadius = Physics.CheckSphere(transform.position, dangerRadius, isPlayer);
 
         if (!agent.pathPending && agent.remainingDistance < 0.5f) {
