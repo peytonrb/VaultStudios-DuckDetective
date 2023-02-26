@@ -716,12 +716,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587269924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 270eb4ee006dcf94795558b6ffe3394b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6205decfd38641e45b0fd72b04922296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   restartButton: {fileID: 1587269926}
-  quitButton: {fileID: 853416807}
-  menuButton: {fileID: 1854017473}
 --- !u!224 &1854017472 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1106387881407283656, guid: 7a9f939fddd849a4593bd4d8762a00ef, type: 3}
