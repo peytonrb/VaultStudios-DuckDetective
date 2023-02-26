@@ -15,6 +15,8 @@ public class pause_menu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+
+
             if (StopIt)
             {
                 Resume();
@@ -29,6 +31,7 @@ public class pause_menu : MonoBehaviour
 
     public void Resume ()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         StopIt = false;
@@ -36,6 +39,7 @@ public class pause_menu : MonoBehaviour
 
     void Pause ()
     {
+        Cursor.lockState = CursorLockMode.None;
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         StopIt = true;
@@ -44,7 +48,7 @@ public class pause_menu : MonoBehaviour
     public void LoadMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
