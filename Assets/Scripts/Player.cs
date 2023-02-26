@@ -47,14 +47,14 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (GameManager.Instance.hasMacguffin)
+        if (GameManager.Instance.hasMacguffin) //GameManager.Instance.fDown && npc.gameObject.tag == "Macguffin"
         {
-            if (macCount < 1)
+            if (GameManager.Instance.fDown && npc.gameObject.tag == "Macguffin" && macCount != 1)
             {
-                macCount ++;
+                macCount++;
                 froggo.SetActive(true);
                 inRange = false;
-            }
+            } 
         }
 
     }

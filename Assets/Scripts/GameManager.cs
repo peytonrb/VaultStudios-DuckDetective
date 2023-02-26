@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
         if (winCon && !typing && SceneManager.GetActiveScene().name != "WinScreen" && Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene("WinScreen");
