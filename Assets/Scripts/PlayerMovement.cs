@@ -11,8 +11,15 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask ground;
+    public AudioSource honk;
+    public AudioClip audioClip;
     private Vector3 velocity;
     private bool isGrounded;
+
+    void Start() {
+        honk = GetComponent<AudioSource>();
+        honk.clip = audioClip;
+    }
 
     void Update()
     {
@@ -29,7 +36,8 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime);
 
         if (Input.GetButtonDown("Jump") && isGrounded) {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            // velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            honk.Play();
         }
 
         velocity.y += gravity * Time.deltaTime; 
