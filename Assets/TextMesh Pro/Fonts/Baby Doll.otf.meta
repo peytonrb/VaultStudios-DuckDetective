@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 33bd94f73720faa4898bc414e54a17d3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Baby Doll
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 647b5fe7240bd3641ab72619b294ab89, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
