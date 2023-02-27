@@ -16,6 +16,10 @@ public class Menu : MonoBehaviour
 
     private void toMenu() 
     {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.ResetGM();
+        }
         AudioManager.Instance.Stop("LoseMusic");
         AudioManager.Instance.Stop("WinMusic");
         SceneManager.LoadScene(0);
