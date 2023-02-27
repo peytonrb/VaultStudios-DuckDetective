@@ -10,6 +10,19 @@ public class gama_ovar : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
     }
+
+    void Awake()
+    {
+        if (SceneManager.GetActiveScene().name == "WinScreen")
+        {
+            AudioManager.Instance.Play("WinMusic");
+        }
+        else if (SceneManager.GetActiveScene().name == "LoseScreen")
+        {
+            AudioManager.Instance.Play("LoseMusic");
+        }
+        
+    }
     
     public void RestartGame()
     {

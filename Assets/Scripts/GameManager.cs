@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public float tempPlayerLookX;
     public bool activeChat;
     public bool typing;
+    public bool typingSound;
     public bool hasMacguffin;
     public bool winCon;
     public bool loseCon;
@@ -40,19 +41,32 @@ public class GameManager : MonoBehaviour
     }
 
     private void Update()
-    {   
+    {
         if (winCon && !typing && SceneManager.GetActiveScene().name != "WinScreen" && Input.GetKeyDown(KeyCode.Space))
         {
+            AudioManager.Instance.Stop("LevelMusic");
             SceneManager.LoadScene("WinScreen");
         }
         else if (loseCon && SceneManager.GetActiveScene().name != "LoseScreen")
         {
+            AudioManager.Instance.Stop("LevelMusic");
             SceneManager.LoadScene("LoseScreen");
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
+        }
+
+        if (typing && !typingSound)
+        {
+            AudioManager.Instance.Play("TextSound");
+            typingSound = true;
+        }
+        else if (typingSound && !typing)
+        {
+            AudioManager.Instance.Stop("TextSound");
+            typingSound = false;
         }
     }
 
@@ -72,10 +86,5 @@ public class GameManager : MonoBehaviour
         {
             fDown = false;
         }
-    }
-
-    public void WinGame()
-    {
-        Debug.Log("WinGame");
     }
 }

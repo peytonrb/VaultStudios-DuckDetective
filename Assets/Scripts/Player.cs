@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     {
         froggo.SetActive(false);
         macCount = 0;
+        AudioManager.Instance.Play("LevelMusic");
     }
 
     private void Update()

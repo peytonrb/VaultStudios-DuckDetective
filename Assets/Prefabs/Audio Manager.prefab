@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7678047518479295480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8414411803211554163}
+  - component: {fileID: 1869909590836590840}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8414411803211554163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678047518479295480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 598.16925, y: 284.42502, z: -369.8601}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1869909590836590840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678047518479295480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72116406e89a78e4b948a3a81a02c5c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: LevelMusic
+    clip: {fileID: 8300000, guid: 7dfc31f5b54fcb845ad722355fca16db, type: 3}
+    volume: 0.75
+    loop: 1
+    source: {fileID: 0}
+  - name: FoxFootsteps
+    clip: {fileID: 8300000, guid: 227292dfa2846484eacc3a022c8c9e54, type: 3}
+    volume: 0.75
+    loop: 1
+    source: {fileID: 0}
+  - name: FoxGrunt
+    clip: {fileID: 8300000, guid: 2794dc6ec89919047aabbff63a130549, type: 3}
+    volume: 0.75
+    loop: 0
+    source: {fileID: 0}
+  - name: Honk
+    clip: {fileID: 8300000, guid: 1b72ca6491eb48242a7a892efe13e218, type: 3}
+    volume: 0.75
+    loop: 0
+    source: {fileID: 0}
+  - name: MainMusic
+    clip: {fileID: 8300000, guid: ace2654e790c8664bb8b08bd70cc6f0f, type: 3}
+    volume: 0.75
+    loop: 1
+    source: {fileID: 0}
+  - name: LoseMusic
+    clip: {fileID: 8300000, guid: f9a07d599d834f747ae09559308661ef, type: 3}
+    volume: 0.75
+    loop: 0
+    source: {fileID: 0}
+  - name: WinMusic
+    clip: {fileID: 8300000, guid: 7944721868c08834f8c8669ad76a690b, type: 3}
+    volume: 0.75
+    loop: 0
+    source: {fileID: 0}
+  - name: TextSound
+    clip: {fileID: 8300000, guid: 397b66e92da6692408456041754d6a73, type: 3}
+    volume: 0.75
+    loop: 1
+    source: {fileID: 0}
