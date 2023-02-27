@@ -35,6 +35,7 @@ public class pause_menu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         StopIt = false;
+        AudioManager.Instance.UnPause("LevelMusic");
     }
 
     void Pause ()
@@ -43,11 +44,13 @@ public class pause_menu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         StopIt = true;
+        AudioManager.Instance.Pause("LevelMusic");
     }
 
     public void LoadMenu()
     {
         Time.timeScale = 1f;
+        AudioManager.Instance.Stop("LevelMusic");
         SceneManager.LoadScene(0);
     }
 
@@ -60,6 +63,8 @@ public class pause_menu : MonoBehaviour
    
        public void DoOver()
     {
+        AudioManager.Instance.Stop("LevelMusic");
+
         SceneManager.LoadScene(1);
     }
 
