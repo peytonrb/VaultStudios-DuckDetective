@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4f8794de1b0f8014a97c5512eddcb101
+guid: 23e24f8cdf713174cb2a8a1aec95ef38
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: mirror1
-    second: {fileID: 2100000, guid: 9be80d6ca57179841b08d6828df92ba6, type: 2}
+      name: Handle
+    second: {fileID: 2100000, guid: eeb54876bb4a4bf4a8c2e2bc3ef07855, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: wood
-    second: {fileID: 2100000, guid: 8fc63477eb02c2d4b8b811364006c56d, type: 2}
+      name: glass
+    second: {fileID: 2100000, guid: 6ce6aba3e7bf6554f90d3bb95fb12f1c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
