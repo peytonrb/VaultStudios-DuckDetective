@@ -15,6 +15,12 @@ public class Restart : MonoBehaviour
     }
 
     private void restartGame() {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.ResetGM();
+        }
         SceneManager.LoadScene(1);
     }
+
+
 }

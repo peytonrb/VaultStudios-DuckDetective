@@ -63,6 +63,11 @@ public class pause_menu : MonoBehaviour
    
        public void DoOver()
     {
+        
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.ResetGM();
+        }
         AudioManager.Instance.Stop("LevelMusic");
 
         SceneManager.LoadScene(1);

@@ -68,6 +68,11 @@ public class GameManager : MonoBehaviour
             AudioManager.Instance.Stop("TextSound");
             typingSound = false;
         }
+
+        if (SceneManager.GetActiveScene().name == "main menu")
+        {
+            ResetGM();
+        }
     }
 
     public void MoveOff()
@@ -86,5 +91,10 @@ public class GameManager : MonoBehaviour
         {
             fDown = false;
         }
+    }
+
+    public void ResetGM()
+    {
+        Destroy(gameObject);
     }
 }
