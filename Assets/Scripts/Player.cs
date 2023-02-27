@@ -52,10 +52,15 @@ public class Player : MonoBehaviour
         {
             if (GameManager.Instance.fDown && npc.gameObject.tag == "Macguffin" && macCount != 1)
             {
-                macCount++;
-                froggo.SetActive(true);
-                inRange = false;
+                
             } 
+        }
+
+        if (GameManager.Instance.hasMacguffin && !GameManager.Instance.typing && macCount != 1)
+        {
+            macCount++;
+            froggo.SetActive(true);
+            inRange = false;
         }
 
     }
