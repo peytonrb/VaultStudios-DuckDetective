@@ -14,7 +14,10 @@ public class Menu : MonoBehaviour
         mButton.onClick.AddListener(toMenu);
     }
 
-    private void toMenu() {
+    private void toMenu() 
+    {
+        AudioManager.Instance.Stop("LoseMusic");
+        AudioManager.Instance.Stop("WinMusic");
         SceneManager.LoadScene(0);
     }
 }

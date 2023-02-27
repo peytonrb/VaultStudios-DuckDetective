@@ -26,11 +26,13 @@ public class gama_ovar : MonoBehaviour
     
     public void RestartGame()
     {
+        StopMusic();
         SceneManager.LoadScene(1);
     }
 
     public void MenuReturn()
     {
+        StopMusic();
         SceneManager.LoadScene(0);
     }
 
@@ -38,5 +40,11 @@ public class gama_ovar : MonoBehaviour
     {
         Debug.Log("Quitteded");
         Application.Quit();
+    }
+
+    public void StopMusic()
+    {
+        AudioManager.Instance.Stop("LoseMusic");
+        AudioManager.Instance.Stop("WinMusic");
     }
 }

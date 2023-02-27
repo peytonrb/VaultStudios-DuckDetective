@@ -19,6 +19,8 @@ public class Restart : MonoBehaviour
         {
             GameManager.Instance.ResetGM();
         }
+        AudioManager.Instance.Stop("LoseMusic");
+        AudioManager.Instance.Stop("WinMusic");
         SceneManager.LoadScene(1);
     }
 
